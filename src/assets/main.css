@@ -40,3 +40,167 @@ h4 {
   color: rgb(182, 187, 73);
   text-align: center;
 }
+
+.index-container {
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+}
+
+.index-container img {
+  border-radius: 10px;
+}
+
+.about-container {
+  color: rgb(234, 171, 94);
+  width: 70%;
+  height: 60vh;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+}
+.about-container a {
+  text-decoration: none;
+  color: rgb(74, 124, 185);
+  margin: 10px;
+}
+
+.links {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  color: rgb(250, 236, 236);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.links a {
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(247, 233, 233);
+  margin: 10px 25px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: burlywood;
+}
+
+.roe-links {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.roe-links a {
+  margin: 8px 12px;
+  color: rgb(228, 239, 16);
+  cursor: pointer;
+  text-decoration: none;
+}
+.roe-links a:hover {
+  color: rgb(166, 149, 20);
+}
+.index-container a img {
+  height: 470px;
+  margin: 20px;
+}
+.book-container {
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgb(13, 50, 161);
+  color: rgb(224, 214, 202);
+  width: 80%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.footer-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+  margin: 100px auto;
+}
+
+.circle1 {
+  position: absolute;
+  left: 60px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(195, 188, 56);
+  border-radius: 23px;
+  transform: rotate(45deg);
+  animation: rotate1 24s linear infinite;
+}
+
+.circle2 {
+  position: absolute;
+  left: 60px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(195, 188, 56);
+  border-radius: 23px;
+  animation: rotate2 24s linear infinite;
+}
+
+.in {
+  margin: 40px auto;
+  width: 100%;
+
+  text-align: center;
+}
+
+.in b {
+  color: bisque;
+}
+
+button i {
+  color: rgb(64, 64, 228);
+}
+
+
+@keyframes rotate1 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    transform: rotate(45deg);
+  }
+
+  to {
+    transform: rotate(405deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .book-container {
+    width: 100%;
+    padding: 25px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .links {
+    flex-wrap: wrap;
+    height: 180px;
+  }
+}

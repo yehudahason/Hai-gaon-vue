@@ -1,45 +1,23 @@
 <template>
      <div class="links">
-      <a href="./index.html"><i class="fa-solid fa-house"></i></a>
-      <a href="./book.html"> חלק א'</a>
-      <a href="./book-2.html"> חלק ב'</a>
-      <a href="./book-3.html"> חלק ג'</a>
-      <a href="./roe1.html"> פרק הרואה</a>
+      <RouterLink to="/"><i class="fa-solid fa-house"></i></RouterLink>
+      <RouterLink to="/book"> חלק א'</RouterLink>
+      <RouterLink to="/book-2"> חלק ב'</RouterLink>
+      <RouterLink to="/book-3"> חלק ג'</RouterLink>
+      <RouterLink to="/roe1"> פרק הרואה</RouterLink>
 
-      <a href="./about.html">אודות</a>
+      <RouterLink to="/about">אודות</RouterLink>
     </div>
 
 </template>
 
-<script>
+<script setup>
+import { RouterLink } from 'vue-router';
 
 
 
 </script>
 
-<style scoped>
-.links {
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 60px;
-  display: flex;
-  color: rgb(250, 236, 236);
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-.links a {
-  font-weight: bold;
-  cursor: pointer;
-  color: rgb(247, 233, 233);
-  margin: 10px 25px;
-  text-decoration: none;
-}
+<style >
 
-.links a:hover {
-  color: burlywood;
-}
-FontAwesomeIcon {
-  color : white;
-}
 </style>
