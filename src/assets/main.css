@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  direction: rtl;
+  background-image: url(../img/Milky_way.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  color: white;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color : white ;
+}
+b {
+  margin-left: 20px;
+  font-size: 26px;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+h3 {
+  margin: 20px;
+  font-size: 27px;
+  text-align: center;
+}
+
+h4 {
+  color: rgb(182, 187, 73);
+  text-align: center;
+}
