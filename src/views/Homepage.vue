@@ -15,6 +15,8 @@
       
       <h4>פתרון חלומות דפוס ונציה 5383</h4>
       </RouterLink>
+      <br />
+      <RouterLink to="/book" class="enter"> מהדורה מקוונת <i class="fa-solid fa-arrow-left"></i></RouterLink>
     </div>
     <Circle/>
     <br />
@@ -24,3 +26,4 @@
 import {RouterLink} from 'vue-router'
 import Circle from '../components/Circle.vue'
  </script>
+
