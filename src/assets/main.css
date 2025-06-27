@@ -65,7 +65,7 @@ h4 {
 .about-container {
   color: rgb(234, 171, 94);
   width: 70%;
-  height: 60vh;
+  height: 75vh;
   margin: auto;
   margin-top: 25px;
   text-align: center;
@@ -77,6 +77,7 @@ h4 {
   text-decoration: none;
   color: rgb(74, 124, 185);
   margin: 10px;
+  
 }
 
 .links {
@@ -199,12 +200,15 @@ button i {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .book-container {
+@media screen and (max-width: 1080px) {
+  .book-container, .about-container{
     width: 100%;
     padding: 25px;
     font-size: 20px;
     line-height: 1.5;
+  }
+  .about-container{
+    height: 90vh;
   }
   .links {
     flex-wrap: wrap;
