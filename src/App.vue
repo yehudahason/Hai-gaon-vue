@@ -7,7 +7,7 @@ import  Circle from '@/components/Circle.vue'
 <template>
   <Links/>
   <RouterView />
-  <Circle/>
+  
 </template>
 
 <style scoped>
