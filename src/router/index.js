@@ -49,7 +49,8 @@ const router = createRouter({
    {
     path : "/about" ,
     name : "About" ,
-    component : About
+    component : About,
+    alias : "/about.html"
   } ,
   {
     path : "/roe1" ,

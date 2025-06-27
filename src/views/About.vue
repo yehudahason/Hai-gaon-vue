@@ -1,5 +1,5 @@
 <template>
-    <div class="about-container">
+    <div class="about-container" >
         <br />
         <p>מהדורת אינטרנט לספר סדר פתרון חלומות</p>
         <br />
@@ -11,10 +11,10 @@
         <br />
         <form action="">
 
-            <label for="google-search">חפש באתר ע"י גוגל :</label>
+            <label for="google-search">חפש באתר ע"י גוגל </label>
             <input type="text" placeholder="חפש באתר על ידי גוגל" id="google-search" v-model="search">
 
-            <button @click.prevent="handleclick()" id="btn"> <i class="fa-brands fa-google"></i></button>
+            <button @click.prevent="handleclick()" id="btn">חפש</button>
         </form>
         <br />
         <br />
@@ -23,7 +23,7 @@
 <input type="hidden" name="no_recurring" value="1" />
 <input type="hidden" name="item_name" value="Torah support" />
 <input type="hidden" name="currency_code" value="ILS" />
-<label>תרומה להפצה תורנית: </label>
+<label> <p>תמיכה באתר </p> </label>
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 
 </form>

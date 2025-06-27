@@ -79,7 +79,14 @@ h4 {
   margin: 10px;
   
 }
-
+input{
+  margin: 0 10px;
+}
+label p{
+  display: inline-block;
+  transform: translateY(-7px);
+  
+}
 .links {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
