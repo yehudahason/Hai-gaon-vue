@@ -17,20 +17,17 @@
             <button @click.prevent="handleclick()" id="btn"> <i class="fa-brands fa-google"></i></button>
         </form>
         <br />
-        <!-- start of freefind search box html -->
+        <br />
+       <form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="business" value="WY3UA9TDCE5KA" />
+<input type="hidden" name="no_recurring" value="1" />
+<input type="hidden" name="item_name" value="Torah support" />
+<input type="hidden" name="currency_code" value="ILS" />
+<label>תרומה להפצה תורנית: </label>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 
-        <!-- <form style="margin:0px; margin-top:4px;" action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
-      <label for="">חפש באתר:</label>
-		<input type="hidden" name="si" value="59885561">
-		<input type="hidden" name="pid" value="r">
-		<input type="hidden" name="n" value="0">
-		<input type="hidden" name="_charset_" value="">
-		<input type="hidden" name="bcd" value="&#247;">
-		<input type="text" name="query" size="15" placeholder="חפש באתר"> 
-		<input type="submit" value="חפש">
-		</form> -->
+</form>
 
-        <!-- end of freefind search box html -->
 
     </div>
     <div class="in">
