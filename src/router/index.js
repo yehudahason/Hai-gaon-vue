@@ -13,6 +13,7 @@ import Roe5 from '../views/Roe5.vue'
 import Roe6 from '../views/Roe6.vue'
 import Roe7 from '../views/Roe7.vue'
 import Roe8 from '../views/Roe8.vue'
+import Homepagenew from '../views/Homepagenew.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,7 +21,7 @@ const router = createRouter({
     {
     path : "/" ,
     name : "Home" ,
-    component : Homepage
+    component : Homepagenew
     },
   
   {

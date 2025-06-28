@@ -12,7 +12,7 @@
         <form action="">
 
             <label for="google-search">חפש באתר ע"י גוגל </label>
-            <input type="text" placeholder="חפש באתר על ידי גוגל" id="google-search" v-model="search">
+            <input type="text" placeholder=" חפש .." id="google-search" v-model="search">
 
             <button @click.prevent="handleclick()" id="btn">חפש</button>
         </form>
@@ -37,9 +37,10 @@
     </div>
     <br/>
     <br />
-    <div class="in">
+    <div class="banner">
         <b>תפילה תשובה וצדקה</b>
         <b>מעבירים את רוע הגזירה</b>
+        <b>-בראשית רבה</b>
     </div>
     <Circle />
 </template>
