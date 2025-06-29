@@ -24,7 +24,8 @@ a{
   font-weight: bold;
 }
 a.enter {
-  color: rgb(182, 187, 73);
+  color: rgb(244, 172, 83);
+  
  
  font-size: 30px;
 }
@@ -35,6 +36,7 @@ b {
 h1 {
   text-align: center;
   margin: 20px;
+  color: rgb(244, 172, 83);
 }
 h3 {
   margin: 20px;
@@ -43,7 +45,8 @@ h3 {
 }
 
 h4 {
-  color: rgb(182, 187, 73);
+  color: rgb(244, 172, 83);
+  
   text-align: center;
 }
 
@@ -135,7 +138,7 @@ label p{
 }
 .roe-links a {
   margin: 8px 12px;
-  color: rgb(228, 239, 16);
+  color: rgb(239, 213, 16);
   cursor: pointer;
   text-decoration: none;
 }
