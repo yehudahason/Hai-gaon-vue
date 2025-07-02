@@ -1,38 +1,23 @@
 <template>
 
-       <h1> 404 </h1> 
     <div class="about-container">
         <br />
-    
-        <br />
-         <p>דף לא נמצא</p>
-    
+        <h1> 404 </h1>
+        
+        <p>דף לא נמצא</p>
         <br />
         <form action="">
 
             <label for="google-search">חפש באתר ע"י גוגל :</label>
             <input type="text" placeholder="חפש באתר על ידי גוגל" id="google-search" v-model="search">
 
-            <button @click.prevent="handleclick()" id="btn"> <i class="fa-brands fa-google"></i></button>
+            <button @click.prevent="handleclick()" id="btn"> חפש</button>
         </form>
         <br />
-        <!-- start of freefind search box html -->
 
-        <!-- <form style="margin:0px; margin-top:4px;" action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
-      <label for="">חפש באתר:</label>
-		<input type="hidden" name="si" value="59885561">
-		<input type="hidden" name="pid" value="r">
-		<input type="hidden" name="n" value="0">
-		<input type="hidden" name="_charset_" value="">
-		<input type="hidden" name="bcd" value="&#247;">
-		<input type="text" name="query" size="15" placeholder="חפש באתר"> 
-		<input type="submit" value="חפש">
-		</form> -->
-
-        <!-- end of freefind search box html -->
 
     </div>
-    <div class="in">
+    <div class="banner">
         <b>תפילה תשובה וצדקה</b>
         <b>מעבירים את רוע הגזירה</b>
     </div>
