@@ -20,7 +20,7 @@
         <br />
         <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="business" value="WY3UA9TDCE5KA" />
-<input type="hidden" name="no_recurring" value="0" />
+<input type="hidden" name="no_recurring" value="1" />
 <input type="hidden" name="item_name" value="For pitron-halomot.org support" />
 <input type="hidden" name="currency_code" value="USD" />
 <label for="submit"><p>תרום לתמיכה באתר </p></label>
