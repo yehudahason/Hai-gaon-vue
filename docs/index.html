@@ -19,5 +19,13 @@ nl_dir = "/Hai-gaon-vue/nl-files/";
 <script
 
 src="/Hai-gaon-vue/nagishli.js?v=2.3" charset="utf-8" defer></script>
+
+<script>
+  // If user lands on /about, redirect to /#/about
+  const path = window.location.pathname;
+  if (path !== '/' && !path.includes('/#')) {
+    window.location.replace('/#' + path);
+  }
+</script>
   </body>
 </html>
