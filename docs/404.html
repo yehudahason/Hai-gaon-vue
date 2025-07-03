@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head><meta charset="utf-8"><title>Redirecting...</title></head>
+  <head>
+    <meta http-equiv="refresh" content="0; url=./index.html" />
+  </head>
   <body>
-    <script>
-      // Redirect unknown paths to index.html with hash
-      const path = location.pathname.replace(/\/+$/, '');
-      const newUrl = location.origin + location.pathname.replace(/\/[^/]*$/, '') + '/#' + path + location.search + location.hash;
-      location.replace(newUrl);
-    </script>
+    <p>Redirecting...</p>
   </body>
 </html>
