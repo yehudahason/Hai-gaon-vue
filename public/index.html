@@ -9,17 +9,19 @@
   </head>
   <body>
 
-    <script>
-  // Only run if there's no hash and the path is not the root
+   <script>
+  // Auto-redirect /about to /Hai-gaon-vue/#/about on GitHub Pages
   if (
     !location.hash &&
-    location.pathname !== '/' &&
-    !location.pathname.startsWith('/Hai-gaon-vue/assets') // skip static files
+    location.pathname !== '/Hai-gaon-vue/' &&
+    location.pathname.startsWith('/Hai-gaon-vue/') &&
+    !location.pathname.startsWith('/Hai-gaon-vue/assets')
   ) {
-    const path = location.pathname.replace(/^\/repo-name/, ''); // remove repo base
+    const path = location.pathname.replace('/Hai-gaon-vue', '');
     window.location.replace(`/Hai-gaon-vue/#${path}`);
   }
 </script>
+ 
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
     

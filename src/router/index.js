@@ -15,7 +15,7 @@ import Roe8 from '../views/Roe8.vue'
 import Homepagenew from '../views/Homepagenew.vue'
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory('/Hai-gaon-vue/'),
   routes: [
     {
     path : "/" ,
