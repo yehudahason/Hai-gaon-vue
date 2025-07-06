@@ -8,6 +8,18 @@
     <title>סדר פתרון חלומות</title>
   </head>
   <body>
+
+    <script>
+  // Only run if there's no hash and the path is not the root
+  if (
+    !location.hash &&
+    location.pathname !== '/' &&
+    !location.pathname.startsWith('/Hai-gaon-vue/assets') // skip static files
+  ) {
+    const path = location.pathname.replace(/^\/repo-name/, ''); // remove repo base
+    window.location.replace(`/Hai-gaon-vue/#${path}`);
+  }
+</script>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
     
