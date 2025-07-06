@@ -17,7 +17,7 @@
     location.pathname !== '/' &&
     !location.pathname.startsWith('/Hai-gaon-vue/assets') // skip static files
   ) {
-    const path = location.pathname.replace(/^\/repo-name/, ''); // remove repo base
+    const path = location.pathname.replace(/^\/Hai-gaon-vue/, ''); // remove repo base
     window.location.replace(`/Hai-gaon-vue/#${path}`);
   }
 </script>
