@@ -351,8 +351,7 @@
       ואם אכל מבשרו טוב לו עד כאן .
     </p>
   </div>
-  <Circle />
-  <Links />
+  
 </template>
 
 <script setup>

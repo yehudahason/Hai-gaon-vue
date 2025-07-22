@@ -113,8 +113,6 @@
             דוד טרינקי.
         </p>
     </div>
-    <Circle />
-    <Links />
 </template>
 
 <script setup>

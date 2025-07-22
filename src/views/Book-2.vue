@@ -331,8 +331,7 @@
         </p>
         <br />
     </div>
-    <Circle />
-    <Links />
+    
 </template>
 
 <script setup>

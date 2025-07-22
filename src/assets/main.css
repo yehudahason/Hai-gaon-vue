@@ -128,7 +128,13 @@ label p{
 .links a:hover {
   color: burlywood;
 }
+.links .router-link-active {
+    color: burlywood;
+}
 
+.roe-links .router-link-active {
+   color: rgb(157, 113, 55);
+}
 .roe-links {
   margin-top: 0;
   display: flex;
@@ -138,12 +144,12 @@ label p{
 }
 .roe-links a {
   margin: 8px 12px;
-  color: rgb(239, 213, 16);
+  color: rgb(247, 233, 233);
   cursor: pointer;
   text-decoration: none;
 }
 .roe-links a:hover {
-  color: rgb(166, 149, 20);
+   color: rgb(157, 113, 55);
 }
 .index-container a img {
   height: 470px;
@@ -206,6 +212,14 @@ button i {
   color: rgb(64, 64, 228);
 }
 
+ button {
+  border-radius: 5px;
+  padding: 1px 6px;
+  border: 0;
+  background-color: rgb(230, 173, 87);
+  color: black;
+  cursor: pointer;
+}
 
 @keyframes rotate1 {
   from {
