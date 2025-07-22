@@ -21,7 +21,6 @@
         <b>תפילה תשובה וצדקה</b>
         <b>מעבירים את רוע הגזירה</b>
     </div>
-    <Circle />
 </template>
 
 <script setup>
