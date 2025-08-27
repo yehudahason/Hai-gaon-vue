@@ -113,6 +113,7 @@
             דוד טרינקי.
         </p>
     </div>
+    <Links/>
 </template>
 
 <script setup>

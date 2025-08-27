@@ -330,8 +330,9 @@
             מצוות כרימון וזה ערום ממנו .
         </p>
         <br />
+        
     </div>
-    
+    <Links/>
 </template>
 
 <script setup>
