@@ -19,4 +19,7 @@ npm run dev
 ```sh
 npm run build
 ```
-# Hai-gaon-vue
+
+# Hai-gaon-vue website on netlify
+
+https://hai-gaon.netlify.app/
