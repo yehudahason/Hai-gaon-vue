@@ -129,20 +129,29 @@ label p {
 .roe-links .router-link-active {
   color: rgb(157, 113, 55);
 }
-.roe-links {
+
+.book-links .router-link-active {
+  color: rgb(157, 113, 55);
+}
+
+.roe-links,
+.book-links {
   margin-top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.roe-links a {
+
+.roe-links a,
+.book-links a {
   margin: 8px 12px;
   color: rgb(247, 233, 233);
   cursor: pointer;
   text-decoration: none;
 }
-.roe-links a:hover {
+.roe-links a:hover,
+.book-links a:hover {
   color: rgb(157, 113, 55);
 }
 .index-container a img {
