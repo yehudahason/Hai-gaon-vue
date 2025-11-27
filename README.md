@@ -20,6 +20,6 @@ npm run dev
 npm run build
 ```
 
-# Hai-gaon-vue website on netlify
+### Hai-gaon-vue website on netlify
 
 https://hai-gaon.netlify.app/
