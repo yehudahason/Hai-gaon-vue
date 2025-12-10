@@ -14,12 +14,6 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
 ### Hai-gaon-vue website on netlify
 
 https://hai-gaon.netlify.app/
