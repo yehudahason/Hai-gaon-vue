@@ -2,7 +2,7 @@
 
 אתר לספר סדר פתרון חלומות מהרב הגאון רבינו האי ז"ל ויוסף הצדיק ודניאל איש חמודות ורש"י ז"ל וחכמים אחרים , ניתן להפצה חופשית לזיכוי רבים .
 
-## Project Setup
+### Project Setup
 
 ```sh
 npm install
@@ -14,6 +14,6 @@ npm install
 npm run dev
 ```
 
-### Hai-gaon-vue website on netlify
+### Link to  netlify
 
 https://hai-gaon.netlify.app/
