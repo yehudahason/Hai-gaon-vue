@@ -14,10 +14,7 @@
     <RouterLink to="/book" class="enter">
       כניסה לקריאה <i class="fa-solid fa-arrow-left"></i
     ></RouterLink>
-    <br />
   </div>
-
-  <br />
 </template>
 
 <script setup>
