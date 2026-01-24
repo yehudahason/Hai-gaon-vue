@@ -16,7 +16,7 @@
         <a href="/hari/ETZCHAYIM7-H.pdf" class="btn">ETZCHAYIM7-H - שער מאמרי רשב"י</a>
         <a href="/hari/ETZCHAYIM8-H.pdf" class="btn">ETZCHAYIM8-H - שער הפסוקים</a>
         <a href="/hari/ETZCHAYIM9-H.pdf" class="btn">ETZCHAYIM9-H - שער המצות</a>
-        <a href="/hari/ETZCHAYIM10-H.pdf" class="btn">ETZCHAYIM10-H - שער הכוונות</a>
+        <a href="/hari/ETZCHAYIM10-H.pdf" class="btn">ETZCHAYIM10-H - שער הכוונות חלק ראשון</a>
         <a href="/hari/ETZCHAYIM11-H.pdf" class="btn">ETZCHAYIM11-H - שער הכוונות חלק שני</a>
         <a href="/hari/ETZCHAYIM12-H.pdf" class="btn">ETZCHAYIM12-H - שער רוח הקודש</a>
         <a href="/hari/ETZCHAYIM13-H.pdf" class="btn">ETZCHAYIM13-H - שער הגלגולים</a>
