@@ -40,8 +40,15 @@ jobs:
           key: ${{ secrets.DROPLET_SSH_KEY }}
           script: |
             set -e
-            cd ${{ secrets.DEPLOY_PATH }}
-            pm2 describe Hai-vue >/dev/null \
-              && pm2 restart Hai-vue \
-              || pm2 start "serve -s dist -l 3000" --name Hai-vue
+            DEPLOY="${{ secrets.DEPLOY_PATH }}"
+
+            # sanity check: dist must exist after upload
+            test -f "$DEPLOY/dist/index.html"
+
+            # If process exists but was started with wrong cwd, restart won't fix it.
+            if pm2 describe Hai-vue >/dev/null 2>&1; then
+              pm2 delete Hai-vue
+            fi
+
+            pm2 start "serve -s dist -l 3000" --name Hai-vue --cwd "$DEPLOY"
             pm2 save
