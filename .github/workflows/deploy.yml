@@ -29,7 +29,7 @@ jobs:
           username: ${{ secrets.DROPLET_USER }}
           key: ${{ secrets.DROPLET_SSH_KEY }}
           source: "dist/*"
-          target: ${{ secrets.DEPLOY_PATH }}
+          target: ${{ secrets.DEPLOY_PATH }}/dist
           strip_components: 1
 
       - name: Restart PM2
