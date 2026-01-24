@@ -223,7 +223,12 @@ button {
   color: black;
   cursor: pointer;
 }
-
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
 @keyframes rotate1 {
   from {
     transform: rotate(0deg);
