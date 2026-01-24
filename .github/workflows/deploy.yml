@@ -41,7 +41,7 @@ jobs:
           script: |
             set -e
             cd ${{ secrets.DEPLOY_PATH }}
-            pm2 describe Hai-vue2 >/dev/null \
+            pm2 describe Hai-vue >/dev/null \
               && pm2 restart Hai-vue \
               || pm2 start "serve -s dist -l 3000" --name Hai-vue
             pm2 save
