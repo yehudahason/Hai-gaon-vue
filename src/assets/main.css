@@ -161,12 +161,17 @@ label p {
 .book-container {
   border-radius: 10px;
   padding: 30px;
-  background-color: rgb(13, 50, 161);
+background: linear-gradient(135deg, #231d99, #14105e);
+
+
   color: rgb(224, 214, 202);
   width: 80%;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   margin: 35px auto;
   margin-bottom: 40px;
+  border: 1px solid rgba(220, 220, 220, 0.5);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3) ,
+  -6px -2px 12px rgba(0, 0, 0, 0.3);
 }
 
 .footer-container {
