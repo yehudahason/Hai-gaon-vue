@@ -3,71 +3,72 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://pitron-halomot.org/</loc>
-	<lastmod>2025-12-08T21:06:40+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/book</loc>
-	<lastmod>2025-12-08T21:06:40+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/roe1</loc>
-	<lastmod>2025-12-08T21:06:40+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
-
+<url>
+	<loc>https://pitron-halomot.org/download</loc>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 <url>
 	<loc>https://pitron-halomot.org/about</loc>
-	<lastmod>2025-12-08T21:06:40+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
-
-
 <url>
 	<loc>https://pitron-halomot.org/book-2</loc>
-	<lastmod>2025-12-08T21:06:43+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/book-3</loc>
-	<lastmod>2025-12-08T21:06:43+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/roe2</loc>
-	<lastmod>2025-12-08T21:06:43+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/roe3</loc>
-	<lastmod>2025-12-08T21:06:43+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/roe4</loc>
-	<lastmod>2025-12-08T21:06:43+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/roe5</loc>
-	<lastmod>2025-12-08T21:06:43+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/roe6</loc>
-	<lastmod>2025-12-08T21:06:43+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/roe7</loc>
-	<lastmod>2025-12-08T21:06:43+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://pitron-halomot.org/roe8</loc>
-	<lastmod>2025-12-08T21:06:43+01:00</lastmod>
+	<lastmod>2026-01-25T01:44:38+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
-
 </urlset>
