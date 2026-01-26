@@ -49,6 +49,10 @@
     </form>
   </div>
   <br />
+  
+  <div class="hai-img-con">
+    <img src="../img/haigaonpic.jpg" alt="">
+  </div>
 
   <br />
   <div class="banner">
