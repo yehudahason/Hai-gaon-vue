@@ -2,7 +2,7 @@
   <div class="about-container">
     <p>מהדורת אינטרנט לספר סדר פתרון חלומות מרב האי גאון זצ"ל</p>
     <p>נעתק כלשונו ללא שינוי.</p>
-    <p>נוסף פרק הרואה ממסכת ברכות לפירוש חלומות.</p>  
+    <p>נוסף פרק הרואה ממסכת ברכות לפירוש חלומות.</p>
     <br />
 
     <br />
@@ -21,7 +21,7 @@
     <br />
     <p>
       אפשר לצור קשר
-      <a href="mailto:yehudah29@gmail.com">באימייל הזה.</a>
+      <a href="mailto:admin@pitron-halomot.org">באימייל הזה.</a>
     </p>
     <br />
     <br />
@@ -49,9 +49,9 @@
     </form>
   </div>
   <br />
-  
+
   <div class="hai-img-con">
-    <img src="../img/haigaonpic.jpg" alt="">
+    <img src="../img/haigaonpic.jpg" alt="" />
   </div>
 
   <br />
