@@ -9,11 +9,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   direction: rtl;
-  background-image: url(../img/Milky_way.webp);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
+  background: url(../img/Milky_way.webp) center center / cover no-repeat;
+
+  min-height: 100dvh;
   color: white;
   font-size: 20px;
 }
