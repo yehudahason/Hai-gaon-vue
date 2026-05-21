@@ -14,6 +14,6 @@ npm install
 npm run dev
 ```
 
-### Link to the website on netlify
+### Link to the website at netlify
 
 https://hai-gaon.netlify.app/
