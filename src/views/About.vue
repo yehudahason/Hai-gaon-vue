@@ -1,30 +1,15 @@
 <template>
   <div class="about-container">
-    <p>מהדורת אינטרנט לספר סדר פתרון חלומות מרב האי גאון זצ"ל</p>
-    <p>נעתק כלשונו ללא שינוי.</p>
-    <p>נוסף פרק הרואה ממסכת ברכות לפירוש חלומות.</p>
-    <br />
-
-    <br />
-    <form action="">
-      <label for="google-search">חפש באתר ע"י גוגל </label>
-      <input
-        type="text"
-        placeholder=" חפש .."
-        id="google-search"
-        v-model="search"
-      />
-
-      <button @click.prevent="handleclick()" id="btn">חפש</button>
-    </form>
-    <br />
-    <br />
+    <h1>אודות</h1>
     <p>
-      אפשר לצור קשר
-      <a href="mailto:admin@pitron-halomot.org">באימייל הזה.</a>
+      מהדורת אינטרנט לספר סדר פתרון חלומות מרב האי גאון זצ"ל נעתק כלשונו ללא
+      שינוי. נוסף פרק הרואה ממסכת ברכות לפירוש חלומות.
     </p>
-    <br />
-    <br />
+
+    <p class="kesher">
+      צור קשר:
+      <a href="mailto:admin@pitron-halomot.org">admin@pitron-halomot.org</a>
+    </p>
 
     <form action="https://www.paypal.com/donate" method="post" target="_top">
       <input type="hidden" name="business" value="WY3UA9TDCE5KA" />
@@ -48,27 +33,12 @@
       />
     </form>
   </div>
-  <br />
 
   <div class="hai-img-con">
     <img src="../img/haigaonpic.jpg" alt="" />
   </div>
-
-  <br />
-  <div class="banner">
-    <b>תפילה תשובה וצדקה</b>
-    <b>מעבירים את רוע הגזירה</b>
-    <b>-בראשית רבה</b>
-  </div>
 </template>
 
-<script setup>
-import Circle from "../components/Circle.vue";
-import { ref } from "vue";
-const search = ref("");
-const handleclick = (e) => {
-  window.location.href = `https://www.google.com/search?q=site:https://pitron-halomot.org "${search.value}"`;
-};
-</script>
+<script setup></script>
 
 <style></style>

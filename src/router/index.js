@@ -12,7 +12,7 @@ import Roe5 from "../views/Roe5.vue";
 import Roe6 from "../views/Roe6.vue";
 import Roe7 from "../views/Roe7.vue";
 import Roe8 from "../views/Roe8.vue";
-import Homepagenew from "../views/Homepagenew.vue";
+import Homepage from "../views/Homepage.vue";
 import Download from "../views/Download.vue";
 
 const router = createRouter({
@@ -21,8 +21,8 @@ const router = createRouter({
     {
       path: "/",
       name: "Home",
-      component: Homepagenew,
-      meta: { title: "פתרון חלומות לרב האי גאון" }
+      component: Homepage,
+      meta: { title: "פתרון חלומות לרב האי גאון" },
     },
 
     {
@@ -31,7 +31,6 @@ const router = createRouter({
       component: Book,
       meta: { title: "פתרון חלומות לרב האי גאון" },
       alias: "/book.html",
-
     },
 
     {

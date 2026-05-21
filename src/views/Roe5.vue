@@ -1,19 +1,14 @@
+<script setup>
+import RoeLinks from "@/components/RoeLinks.vue";
+</script>
+
 <template>
   <div class="book-container">
     <h1>פרק הרואה מסכת ברכות</h1>
     <h3>עם פירוש שטיינזלץ זצ"ל</h3>
     <h3>ברכות נו ע"א</h3>
-    <h4>עמוד</h4>
-    <div class="roe-links">
-      <RouterLink to="./roe1">נד ע"א </RouterLink>
-      <RouterLink to="./roe2">נד ע"ב </RouterLink>
-      <RouterLink to="./roe3">נה ע"א </RouterLink>
-      <RouterLink to="./roe4">נה ע"ב</RouterLink>
-      <RouterLink to="./roe5">נו ע"א</RouterLink>
-      <RouterLink to="./roe6">נו ע"ב</RouterLink>
-      <RouterLink to="./roe7">נז ע"א</RouterLink>
-      <RouterLink to="./roe8">נז ע"ב</RouterLink>
-    </div>
+
+    <RoeLinks />
     <br />
     <p>
       ומעין זה מסופר שאמר ליה [לו] קיסר רומי לר' יהושע בר' חנניא: אמריתו דחכמיתו
@@ -179,15 +174,6 @@
     </p>
     <h3>ברכות נו ע"א</h3>
     <h4>עמוד</h4>
-    <div class="roe-links">
-      <RouterLink to="./roe1">נד ע"א </RouterLink>
-      <RouterLink to="./roe2">נד ע"ב </RouterLink>
-      <RouterLink to="./roe3">נה ע"א </RouterLink>
-      <RouterLink to="./roe4">נה ע"ב</RouterLink>
-      <RouterLink to="./roe5">נו ע"א</RouterLink>
-      <RouterLink to="./roe6">נו ע"ב</RouterLink>
-      <RouterLink to="./roe7">נז ע"א</RouterLink>
-      <RouterLink to="./roe8">נז ע"ב</RouterLink>
-    </div>
+    <RoeLinks />
   </div>
 </template>
