@@ -236,8 +236,19 @@ input {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+  max-width: 1280px;
   padding-right: 50px;
   margin: 100px auto;
+}
+.circle1,
+.circle2 {
+  display: none;
+}
+@media (min-width: 678px) {
+  .circle1,
+  .circle2 {
+    display: block;
+  }
 }
 .circle1 {
   position: absolute;
@@ -282,45 +293,6 @@ input {
   }
 }
 
-.moon {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: #fff;
-  overflow: hidden;
-}
-.shadow {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 1); /* Dark shade with transparency */
-  mix-blend-mode: multiply;
-  animation: moonPhase 29.53s linear infinite;
-}
-
-@keyframes moonPhase {
-  0% {
-    left: -80px; /* New Moon */
-  }
-
-  25% {
-    left: -40px; /* First Quarter */
-  }
-
-  50% {
-    left: 0; /* Full Moon */
-  }
-
-  75% {
-    left: 40px; /* Last Quarter */
-  }
-
-  100% {
-    left: 80px; /* New Moon again */
-  }
-}
 .banner {
   margin: 0 auto;
   width: 100%;
