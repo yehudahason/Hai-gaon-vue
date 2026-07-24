@@ -17,4 +17,5 @@
 
 <script setup>
 import { RouterLink } from "vue-router";
+import Circle from "../components/Circle.vue";
 </script>

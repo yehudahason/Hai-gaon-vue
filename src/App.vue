@@ -10,6 +10,7 @@ import Circle from "@/components/Circle.vue";
   </header>
   <main>
     <RouterView />
+    <Circle />
   </main>
 </template>
 

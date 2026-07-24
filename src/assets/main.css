@@ -230,9 +230,19 @@ input {
     -6px -2px 12px rgba(0, 0, 0, 0.3);
 }
 
+.footer-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+  margin: 100px auto;
+}
 .circle1 {
   position: absolute;
-  left: 60px;
+  left: 10%;
+  bottom: 10%;
   height: 100px;
   width: 100px;
   background-color: rgb(195, 188, 56);
@@ -243,7 +253,8 @@ input {
 
 .circle2 {
   position: absolute;
-  left: 60px;
+  left: 10%;
+  bottom: 10%;
   height: 100px;
   width: 100px;
   background-color: rgb(195, 188, 56);
@@ -251,6 +262,25 @@ input {
   animation: rotate2 24s linear infinite;
 }
 
+@keyframes rotate1 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    transform: rotate(45deg);
+  }
+
+  to {
+    transform: rotate(405deg);
+  }
+}
 .banner {
   margin: 0 auto;
   width: 100%;
