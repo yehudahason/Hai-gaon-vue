@@ -242,11 +242,12 @@ input {
   width: 100%;
   max-width: 1280px;
   padding-right: 10%;
+  padding-bottom: 20px;
   margin: 100px auto;
 }
 .moon {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .circle1,

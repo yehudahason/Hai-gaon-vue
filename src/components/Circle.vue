@@ -2,7 +2,7 @@
   <div class="footer-container">
     <div class="circle1"></div>
     <div class="circle2"></div>
-    <Moon :phase="animatedPhase" :size="100" />
+    <Moon :phase="animatedPhase" :size="80" />
   </div>
 </template>
 
