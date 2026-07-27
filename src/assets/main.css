@@ -36,13 +36,12 @@ a {
   font-size: 1.25rem;
   text-decoration: none;
   color: white;
-  font-weight: bold;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a.enter {
   margin-top: 4rem;
-  color: burlywood;
+  color: rgb(226, 194, 151);
 
   font-size: 1.5rem;
   display: flex;
@@ -59,9 +58,11 @@ b {
   margin-right: 0.5rem;
   font-size: 1.35rem;
   color: burlywood;
+  font-weight: 500;
 }
 
 strong {
+  font-weight: 500;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   font-size: 1.35rem;
@@ -79,7 +80,7 @@ h3 {
   margin: 20px;
   font-size: 1.5rem;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   color: rgb(225, 162, 78);
   letter-spacing: 1.5px;
 }
@@ -90,7 +91,7 @@ h3 {
 h4 {
   color: rgb(191, 158, 117);
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -98,6 +99,7 @@ p {
   font-size: 1.1rem;
   line-height: 2.5rem;
   letter-spacing: 1.2px;
+  font-weight: 400;
 }
 .index-container {
   font-family: Arial, Helvetica, sans-serif;
@@ -120,7 +122,6 @@ ul {
   padding-top: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   direction: rtl;
-  font-weight: bold;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -145,6 +146,7 @@ ul {
   margin-top: 25px;
   text-align: center;
   border-radius: 30px;
+  font-weight: 500;
 }
 
 .about-container a {
@@ -173,7 +175,7 @@ input {
 }
 
 .links a {
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   color: rgb(247, 233, 233);
   margin: 10px 25px;

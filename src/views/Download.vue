@@ -107,7 +107,7 @@
   color: white;
   text-decoration: none;
   border-radius: 6px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .title {
   color: white;
