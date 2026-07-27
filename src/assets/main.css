@@ -376,9 +376,6 @@ input[type="text"] {
   body {
     background-attachment: scroll;
   }
-  li {
-    padding: 0.5rem;
-  }
 }
 
 @media (max-width: 480px) and (orientation: portrait) {
@@ -397,8 +394,14 @@ input[type="text"] {
     width: 90%;
     height: auto;
   }
+  ul {
+    padding: 6px 0;
+  }
   li {
-    padding: 1px;
+    padding: 4px 2px;
+  }
+  li a {
+    font-size: 14px;
   }
   .home-container {
     padding-bottom: 5rem;
