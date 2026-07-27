@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+Hebrew:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +8,7 @@
 
 body {
   margin-bottom: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans Hebrew", sans-serif;
   line-height: 2rem;
   direction: rtl;
   background-image:
