@@ -14,6 +14,14 @@ npm install
 npm run dev
 ```
 
-### Link to the website at netlify
+### Built with
 
-https://hai-gaon.netlify.app/
+Vue.js - [vuejs.org](https://vuejs.org/)
+
+### Link
+
+Website - [Live site](https://hai-gaon.netlify.app/)
+
+### Author
+
+Yehuda Hason
