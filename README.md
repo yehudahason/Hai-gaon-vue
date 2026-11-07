@@ -20,7 +20,7 @@ Vue.js - [vuejs.org](https://vuejs.org/)
 
 ### Link
 
-Website - [Live site](https://hai-gaon.netlify.app/)
+Website - [Here](https://hai-gaon.netlify.app/)
 
 ### Author
 
